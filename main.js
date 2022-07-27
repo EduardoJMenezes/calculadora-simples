@@ -22,4 +22,8 @@ function calcular()
     {
         document.getElementById('resultado').innerHTML = eval(resultado);
     }
+    else
+    {
+        document.getElementById('resultado').innerHTML = '...'
+    }
 }
